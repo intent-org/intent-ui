@@ -2,16 +2,13 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import {
-  Heart,
   MessageSquare,
   Coffee,
   QrCode,
-  Wallet,
   Copy,
   Check,
   Star,
   Github,
-  ArrowRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {

@@ -1,12 +1,7 @@
 import { AnimatedIconProps } from "./types";
 import { motion, useAnimate } from "motion/react";
 
-const PlayerIcon = ({
-  size = 24,
-  color = "currentColor",
-  strokeWidth = 2,
-  className = "",
-}: AnimatedIconProps) => {
+const PlayerIcon = ({ size = 24, className = "" }: AnimatedIconProps) => {
   const [scope, animate] = useAnimate();
 
   const playAnimation = async () => {

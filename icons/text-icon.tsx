@@ -1,12 +1,7 @@
 import { AnimatedIconProps } from "./types";
 import { motion, useAnimate } from "motion/react";
 
-const TextIcon = ({
-  size = 40,
-  color = "currentColor",
-  strokeWidth = 2,
-  className = "",
-}: AnimatedIconProps) => {
+const TextIcon = ({ size = 40, className = "" }: AnimatedIconProps) => {
   const [scope, animate] = useAnimate();
 
   const swapDistance = 24;

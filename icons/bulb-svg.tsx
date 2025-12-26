@@ -41,7 +41,8 @@ const BulbSvg = ({
         width={size}
         height={size}
         viewBox="0 0 24 24"
-        fill="currentColor"
+        strokeWidth={strokeWidth}
+        fill={color}
         className={`bulb-icon cursor-pointer ${className}`}
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />

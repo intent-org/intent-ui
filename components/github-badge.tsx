@@ -1,8 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { motion, useAnimate } from "motion/react";
-import { Github } from "lucide-react";
+import { motion } from "motion/react";
 import { useState } from "react";
 import GithubIcon from "@/icons/github-icon";
 
@@ -29,7 +27,7 @@ const GithubBadge = () => {
         className="bg-accent flex cursor-default items-center rounded-full p-1 font-serif shadow-[inset_0px_1px_2px_rgba(0,0,0,0.2)]"
       >
         <span className="text-foreground absolute px-2 text-sm">
-          We're Proudly
+          We&apos;re Proudly
         </span>
         <div
           className={`bg-background relative z-10 flex items-center justify-center gap-2 rounded-full p-1 px-2 shadow-[0px_1px_2px_rgba(0,0,0,0.2)] ${isHovered ? "ml-[110px]" : "ml-0"} transition-all duration-300`}

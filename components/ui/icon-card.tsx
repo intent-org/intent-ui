@@ -5,7 +5,6 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { Terminal } from "lucide-react";
 import { getIconsContent } from "@/actions/get-icons-content";
 import SimpleCheckedIcon from "@/icons/simple-checked-icon";
 import CopyIcon from "@/icons/copy-icon";

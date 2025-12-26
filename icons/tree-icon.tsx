@@ -7,7 +7,7 @@ const TreeIcon = ({
   strokeWidth = 2,
   className = "",
 }: AnimatedIconProps) => {
-  const [scope, animate] = useAnimate();
+  const [scope] = useAnimate();
 
   const hoverAnimation = async () => {};
 

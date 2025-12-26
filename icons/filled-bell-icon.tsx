@@ -44,7 +44,8 @@ const FilledBellIcon = ({
         width={size}
         height={size}
         viewBox="0 0 24 24"
-        fill="currentColor"
+        strokeWidth={strokeWidth}
+        fill={color}
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
 

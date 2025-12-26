@@ -1,7 +1,5 @@
 "use client";
 import { useTheme } from "next-themes";
-
-import { Button } from "@/components/ui/button";
 import BrightnessDownIcon from "@/icons/brightness-down-icon";
 import MoonIcon from "@/icons/moon-icon";
 

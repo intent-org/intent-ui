@@ -1,6 +1,6 @@
 "use client";
 
-import React, {
+import {
   useState,
   useRef,
   useEffect,
@@ -192,5 +192,7 @@ const SearchInput = forwardRef<SearchInputRef, SearchInputProps>(
     );
   },
 );
+
+SearchInput.displayName = "SearchInput";
 
 export default SearchInput;

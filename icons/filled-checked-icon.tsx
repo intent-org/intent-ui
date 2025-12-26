@@ -4,8 +4,6 @@ import React from "react";
 
 const FilledCheckedIcon = ({
   size = 24,
-  color = "currentColor",
-  strokeWidth = 2,
   className = "",
 }: AnimatedIconProps) => {
   const [scope, animate] = useAnimate();
