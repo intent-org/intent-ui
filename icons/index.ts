@@ -30,7 +30,7 @@ import GearIcon from "./gear-icon";
 import GithubIcon from "./github-icon";
 import GithubCopilotIcon from "./github-copilot-icon";
 import GitlabIcon from "./gitlab-icon";
-import Instagram from "./instagram";
+import Instagram from "./instagram-icon";
 import LikeIcon from "./like-icon";
 import LogoutIcon from "./logout-icon";
 import MagnifierIcon from "./magnifier-icon";
@@ -228,7 +228,7 @@ const ICON_LIST: IconType[] = [
     keywords: ["gitlab", "git", "code", "repository", "devops"],
   },
   {
-    name: "instagram",
+    name: "instagram-icon",
     icon: Instagram,
     keywords: ["instagram", "social", "media", "photo"],
   },
